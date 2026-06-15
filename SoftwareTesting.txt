@@ -1,0 +1,68 @@
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing
+$ git --global user.name "ZabirTakiSaheel"
+unknown option: --global
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy
+-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envva
+r>]
+           <command> [<args>]
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing
+$ config git --global user.name "ZabirTakiSaheel"
+bash: config: command not found
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing
+$ git config --global user.name "ZabirTakiSaheel"
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing
+$ git config --global user.email "saheelzabirtaki@gmail.com"
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing
+$ git init
+Initialized empty Git repository in C:/Users/This PC/Desktop/Software Testing/.g
+it/
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (master)
+$ git remote add origin https://github.com/ZabirTakiSaheel/Software-Testing.git
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (master)
+$ git branch -M main
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git add .
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git commit -m "Initial Commit"
+[main (root-commit) 376882a] Initial Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Software Testing.txt
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 235 bytes | 235.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ZabirTakiSaheel/Software-Testing.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git add SoftwareTesting.txt
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git push
+Everything up-to-date
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$ git commit -m "2nd Commit"
+[main 7a7c9db] 2nd Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 SoftwareTesting.txt
+
+This PC@DESKTOP-VQLUNPI MINGW64 ~/Desktop/Software Testing (main)
+$
